@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Body</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of datas">
+        <td scope="row">{{ data.id }}</td>
+        <td>{{ data.title }}</td>
+        <td>{{ data.body }}</td>
+    </tr>
+    </tbody>
+</table>
